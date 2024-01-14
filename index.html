@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <style>
+        /* Style the body */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url(sky-color-paper-abstract-background_608068-2754.jpg.avif);
+        }
+
+        /* Style the header */
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Style the navigation bar */
+        .navbar {
+            display: flex;
+            background-color: #f1f1f1;
+        }
+
+        /* Style the navigation links */
+        .navbar a {
+            color: black;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        /* Change the color on hover */
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Style the main content */
+        .main {
+            display: flex;
+            margin: 20px;
+            }
+
+        /* Style the sidebar */
+        .sidebar {
+            flex: 30%;
+            background-color: #f1f1f1;
+            padding: 20px;
+            background-image: url(photo-1509624776920-0fac24a9dfda.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        /* Style the profile image */
+        .profile-image {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        /* Style the profile name */
+        .profile-name {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        /* Style the profile contact */
+        .profile-contact {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+            font-family: monospace;
+            font-size: larger;
+        }
+
+        /* Style the profile contact icons */
+        .profile-contact li {
+            display: inline-block;
+            margin: 10px;
+        }
+
+        /* Style the profile contact links */
+        .profile-contact a {
+            color: black;
+            text-decoration: none;
+        }
+
+        /* Style the profile contact links on hover */
+        .profile-contact a:hover {
+            color: #333;
+        }
+
+        /* Style the content */
+        .content {
+            flex: 70%;
+            background-color: white;
+            padding: 20px;
+        }
+
+        /* Style the content title */
+        .content-title {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        /* Style the content section */
+        .content-section {
+            margin-bottom: 20px;
+        }
+
+        /* Style the content section title */
+        .content-section-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        /* Style the content section list */
+        .content-section-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        /* Style the content section list item */
+        .content-section-list li {
+            margin-bottom: 10px;
+        }
+
+        /* Style the content section list item title */
+        .content-section-list li h4 {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        /* Style the content section list item subtitle */
+        .content-section-list li p {
+            font-size: 16px;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <h1>My Portfolio</h1>
+        <p>A showcase of my work and skills</p>
+    </div>
+
+    <!-- Navigation bar -->
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+    </div>
+
+    <!-- Main content -->
+    <div class="main">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <!-- Profile image -->
+            <img src="Unknown.jpeg" alt="Profile Image" class="profile-image" />
+            <!-- Profile name -->
+            <h3 class="profile-name">John Doe</h3>
+            <!-- Profile contact -->
+            <ul class="profile-contact">
+                <li><a href="mailto:john.doe@example.com"><ion-icon name="mail-outline">mailto:john.doe@example.com</ion-icon></a></li><br>
+                <li><a href="tel:+1234567890"><ion-icon name="call-outline">tel: +1234567890</ion-icon></a></li><br>
+                <li><a href="https://github.com/johndoe" target="_blank"><ion-icon name="logo-github">https://github.com/johndoe</ion-icon></a></li>
+                <li><a href="https://linkedin.com/in/johndoe" target="_blank"><ion-icon name="logo-linkedin">https://linkedin.com/in/johndoe</ion-icon></a></li>
+                <li><a href="https://twitter.com/johndoe" target="_blank"><ion-icon name="logo-twitter">https://twitter.com/johndoe</ion-icon></a></li>
+            </ul>
+        </div>
+        <!-- Content -->
+        <div class="content">
+            <!-- About section -->
+            <div class="content-section" id="about">
+                <!-- Content title -->
+                <h2 style="background-color: rgb(191, 227, 248);"  class="content-title">About Me</h2>
+                <!-- Content text -->
+                <p>
+                    Hi, I'm John Doe, a web developer based in New York. I have a passion for creating beautiful and functional websites using the latest technologies. I enjoy learning new things and solving problems. I'm always looking for new opportunities and challenges to grow as a developer and a person.
+                </p>
+            </div>
+            <!-- Skills section -->
+            <div class="content-section" id="skills">
+                <!-- Content title -->
+                <h2 style="background-color: rgb(191, 227, 248);" class="content-title">Skills</h2>
+                <!-- Content text -->
+                <p>
+                    Here are some of the skills that I have acquired and used in my projects:
+                </p>
+                <!-- Content list -->
+                <ul class="content-section-list">
+                    <li>
+                        <!-- Content list item title -->
+                        <h4>HTML</h4>
+                        <!-- Content list item subtitle -->
+                        <p>I can write semantic and valid HTML code that follows the best practices and standards.</p>
+                    </li>
+                    <li>
+                        <!-- Content list item title -->
+                        <h4>CSS</h4>
+                        <!-- Content list item subtitle -->
+                        <p>I can style and layout web pages using CSS properties, selectors, media queries, and frameworks.</p>
+                    </li>
+                    <li>
+                        <!-- Content list item title -->
+                        <h4>JavaScript</h4>
+                        <!-- Content list item subtitle -->
+                        <p>I can add interactivity and functionality to web pages using JavaScript syntax, data structures, functions, and libraries.</p>
+                    </li>
+                    <li>
+                        <!-- Content list item title -->
+                        <h4>React</h4>
+                        <!-- Content list item subtitle -->
+                        <p>I can create dynamic and user-friendly web applications using React components, hooks, state, and props.</p>
+                    </li>
+                    <li>
+                        <!-- Content list item title -->
+                        <h4>Node.js</h4>
+                        <!-- Content list item subtitle -->
+                        <p>I can build and deploy scalable and secure web servers using Node.js modules, frameworks, and tools.</p>
+                    </li>
+                    <li>
+                        <!-- Content list item title -->
+                        <h4>MongoDB</h4>
+                        <!-- Content list item subtitle -->
+                        <p>I can store and manipulate data using MongoDB documents, collections, queries, and operations.</p>
+                    </li>
+                </ul>
+            </div>
+            <!-- Projects section -->
+            <div class="content-section" id="projects">
+                <!-- Content title -->
+                <h2 style="background-color: rgb(191, 227, 248);" class="content-title">Projects</h2>
+                <!-- Content text -->
+                <p>
+                    Here are some of the projects that I have worked on and completed:
+                </p>
+                <!-- Content list -->
+                <ul class="content-section-list">
+                    <li>
+                        <!-- Content list item title -->
+                        <h4>JabTV</h4>
+                        <!-- Content list item subtitle -->
+                        <p>A landing page for a boxing TV channel using HTML, CSS, and JavaScript.</p>
+                    </li>
+                    <li>
+                        <!-- Content list item title -->
+                        <h4>To-Do List</h4>
+                        <!-- Content list item subtitle -->
+                        <p>A simple to-do list application using React and localStorage.</p>
+                    </li>
+                    <li>
+                        <!-- Content list item title -->
+                        <h4>Weather App</h4>
+                        <!-- Content list item subtitle -->
+                        <p>A weather app that displays the current weather and forecast using Node.js and OpenWeather API.</p>
+                    </li>
+                    <li>
+                        <!-- Content list item title -->
+                        <h4>Blog Site</h4>
+                        <!-- Content list item subtitle -->
+                        <p>A blog site that allows users to create, read, update, and delete posts using Node.js, Express, and MongoDB.</p>
+                    </li>
+                </ul>
+            </div>
+            <!-- Education section -->
+            <div class="content-section" id="edu">
+                <!-- Content title -->
+                <h2 style="background-color: rgb(191, 227, 248);" class="content-title">Education</h2>
+                <!-- Content text -->
+                <p>
+                    Following are my education qualifications:
+                </p>
+                <!-- Content list -->
+                <ul class="content-section-list">
+                    <li>
+                        <!-- Content list item title -->
+                        <h4>Mody University of Science and Technology, Sikar</h4>
+                        <!-- Content list item subtitle -->
+                        <p>B.Tech in Computer Science Engineering</p>
+                    </li>
+                    <li>
+                        <!-- Content list item title -->
+                        <h4>Army Public School, Pune</h4>
+                        <!-- Content list item subtitle -->
+                        <p>CBSE, Senior Secondary</p>
+                    </li>
+                    <li>
+                        <!-- Content list item title -->
+                        <h4>Army Public School, Pune</h4>
+                        <!-- Content list item subtitle -->
+                        <p>CBSE, Secondary school</p>
+                    </li>
+                    <li>
+                        <!-- Content list item title -->
+                    </li>
+                </ul>
+            </div>
+            <div class="content-section" id="cert">
+                <!-- Content title -->
+                <h2 style="background-color: rgb(191, 227, 248);" class="content-title">Certification Courses</h2>
+                <!-- Content text -->
+                <p>
+                    Following are my Certification Courses:
+                </p>
+                <!-- Content list -->
+                <ul class="content-section-list">
+                    <li>
+                        <!-- Content list item title -->
+                        <h4>Internshala Student Program:</h4>
+                        <!-- Content list item subtitle -->
+                        <p>Certificate of Appreciation and ISP 36 Position Certificate</p>
+                    </li>
+                    <li>
+                        <!-- Content list item title -->
+                        <h4>Introduction to Cyber Security</h4>
+                        <!-- Content list item subtitle -->
+                        <p>Cisco Skill for All</p>
+                    </li>
+                    <li>
+                        <!-- Content list item title -->
+                        <h4>Introduction to Algorithms and Analysis</h4>
+                        <!-- Content list item subtitle -->
+                        <p>NPTEL Swayam</p>
+                    </li>
+                </ul>
+            </div>
+            
